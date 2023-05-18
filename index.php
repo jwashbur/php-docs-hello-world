@@ -1,3 +1,3 @@
 <?php
-$arrFiles = glob('/images/*');
+$arrFiles = scandir('/images');
 ?>
