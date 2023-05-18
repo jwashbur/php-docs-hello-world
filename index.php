@@ -1,5 +1,5 @@
 <?php
 echo "Hello, World!";
-$arrFiles = scandir('/images');
+$arrFiles = scandir('/images/*');
 print_r($arrFiles);
 ?>
