@@ -1,5 +1,5 @@
 <?php
-$directory = "images/";
+$directory = "/images";
 
 if (is_dir($directory)){
   if ($opendirectory = opendir($directory)){
