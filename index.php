@@ -1,5 +1,10 @@
 <?php
 echo "Hello, World!";
-$arrFiles = scandir('/images/*');
-print_r($arrFiles);
+$scan = scandir('/images');
+foreach($scan as $file) {
+   if (!is_dir("/images/$file")) {
+      echo $file.'
+';
+   }
+}
 ?>
